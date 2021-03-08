@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none; }
+
+body {
+  background-image: linear-gradient(to top, #8b8b8b, black); }
+
+/* Variables */
+.navi-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 15vh;
+  background-color: black;
+  color: blanchedalmond; }
+
+.navi-bar__list {
+  padding-left: 20px;
+  font-size: 16pt;
+  display: flex;
+  flex-direction: row; }
+
+.navi-bar--modi {
+  display: flex;
+  flex-direction: row; }
+
+.navi-bar__item {
+  list-style: none; }
+
+.navi-bar__item a:hover {
+  color: #cc2faa; }
+
+.navi-bar__link {
+  text-decoration: none;
+  padding-left: 20px;
+  font-size: 16pt;
+  color: gray;
+  font: normal 16pt "Verdana", Geneva, Tahoma, sans-serif; }
+
+.navi__logo {
+  height: 80%;
+  width: auto; }
+
+.redes-navi {
+  padding-left: 40px; }
+
+.redes-navi__logo {
+  width: 40px;
+  height: 40px; }
+
+/* Proximos eventos */
+table {
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse; }
+  table th {
+    background-color: black;
+    color: white; }
+    table th td {
+      border: 1px solid black;
+      border-collapse: collapse; }
+
+td, th {
+  border: 2px solid black;
+  padding: 10px 20px 10px 10px;
+  color: white; }
+
+/* Galeria */
+.galeria {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding-top: 5%; }
+
+li img {
+  width: 500px;
+  height: auto;
+  transition: 2s; }
+
+section ul li img:hover {
+  width: 900px; }
